@@ -1,0 +1,21 @@
+.form1{
+    width: 500px;
+    height: 230px;
+}
+
+mat-form-field{
+    margin: 10px;
+}
+
+.form2{
+    width: 500px;
+    height: 370px;
+}
+.btn button{
+    background-color: #eca200;
+    color: white;
+    margin-left: 10px;
+}
+.btn{
+    margin-left: 280px;
+}

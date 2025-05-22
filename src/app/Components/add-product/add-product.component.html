@@ -1,0 +1,86 @@
+  <mat-stepper #stepper>
+    <mat-step>
+        <ng-template matStepLabel>Enter Product Details</ng-template>
+      <form class="form1">
+        <mat-form-field appearance="outline">
+            <mat-label >Title</mat-label>
+            <input [(ngModel)]="product.title" name="title" matInput>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label>Category</mat-label>
+            <mat-select [(ngModel)]="product.category" name="category" matInput>
+              <mat-option value="beauty">Beauty</mat-option>
+              <mat-option value="furniture">Furniture</mat-option>
+              <mat-option value="groceries">Grocery</mat-option>
+            </mat-select>
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label >Price</mat-label>
+            <input [(ngModel)]="product.price" name="price" matInput>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label >Brand</mat-label>
+            <input [(ngModel)]="product.brand" name="brand" matInput>
+        </mat-form-field>
+
+        @if(exist){
+          <div class="btn">
+            <button mat-button type="reset">Reset</button>
+            <button (click)="updateProduct()" mat-button matStepperNext>Next</button>
+        </div>
+        }
+        @else{
+
+        <div class="btn">
+            <button mat-button type="reset">Reset</button>
+            <button (click)="addProduct()" mat-button matStepperNext>Next</button>
+        </div>
+      }
+      </form>
+    </mat-step>
+    <mat-step>
+        <ng-template matStepLabel>Enter Product Details</ng-template>
+      <form class="form2">
+        <mat-form-field appearance="outline">
+            <mat-label >Rating</mat-label>
+            <input [(ngModel)]="productDetail.rating" name="rating" matInput>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label >Stock</mat-label>
+            <input [(ngModel)]="productDetail.stock" name="stock" matInput>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label >Weight</mat-label>
+            <input [(ngModel)]="productDetail.weight" name="weight" matInput>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label >Warranty</mat-label>
+            <input [(ngModel)]="productDetail.warranty" name="warranty" matInput>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline" style="width: 440px;">
+            <mat-label>Description</mat-label>
+            <textarea [(ngModel)]="productDetail.description"  name="discription" matInput></textarea>
+        </mat-form-field>
+
+        @if(exist){
+          <mat-dialog-actions class="btn">
+            <button mat-button type="reset">Reset</button>
+            <button (click)="updateProductDetail()" mat-button [mat-dialog-close]="true">Update</button>
+          </mat-dialog-actions>
+        }
+        @else{
+        <mat-dialog-actions class="btn">
+            <button mat-button type="reset">Reset</button>
+            <button (click)="addProductDetail()" mat-button [mat-dialog-close]="true">Add</button>
+          </mat-dialog-actions>
+        }
+      </form>
+    </mat-step>
+  </mat-stepper>

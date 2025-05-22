@@ -1,0 +1,15 @@
+<div class="container">
+    <h1 style="margin-left: 750px;">{{product.title}}</h1>
+    <mat-divider style="margin-left: 400px;"></mat-divider>
+    <h2>Brand: {{ product.brand || 'Not defined'}}</h2>
+    <h2 style="margin-left: 1500px; margin-top: -70px;">Price: {{product.price }}&#36;</h2>
+    <h2>Weight: {{ productDetails.weight }} g</h2>
+    <h2>Rating: {{ productDetails.rating }}</h2>
+    <h2>Category: {{ product.category }}</h2>
+    <h2>Warranty: {{ productDetails.warranty}}</h2>
+    <h2>Stock: {{ productDetails.stock }}</h2>
+    <img src="https://i.postimg.cc/9M6Syp1N/test.jpg" alt="">
+</div>
+<mat-divider></mat-divider>
+<h1 style="margin-left: 10px;">About the product</h1>
+<h2 style="margin-left: 10px;">{{ productDetails.description }}</h2>
