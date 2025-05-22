@@ -1,0 +1,14 @@
+C:\Users\AminKhan\source\repos\WareHouse.API.DataService\bin\Debug\net9.0\Warehouse.API.DataService.deps.json
+C:\Users\AminKhan\source\repos\WareHouse.API.DataService\bin\Debug\net9.0\Warehouse.API.DataService.runtimeconfig.json
+C:\Users\AminKhan\source\repos\WareHouse.API.DataService\bin\Debug\net9.0\Warehouse.API.DataService.dll
+C:\Users\AminKhan\source\repos\WareHouse.API.DataService\bin\Debug\net9.0\Warehouse.API.DataService.pdb
+C:\Users\AminKhan\source\repos\WareHouse.API.DataService\obj\Debug\net9.0\Warehouse.API.DataService.csproj.AssemblyReference.cache
+C:\Users\AminKhan\source\repos\WareHouse.API.DataService\obj\Debug\net9.0\Warehouse.API.DataService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AminKhan\source\repos\WareHouse.API.DataService\obj\Debug\net9.0\Warehouse.API.DataService.AssemblyInfoInputs.cache
+C:\Users\AminKhan\source\repos\WareHouse.API.DataService\obj\Debug\net9.0\Warehouse.API.DataService.AssemblyInfo.cs
+C:\Users\AminKhan\source\repos\WareHouse.API.DataService\obj\Debug\net9.0\Warehouse.API.DataService.csproj.CoreCompileInputs.cache
+C:\Users\AminKhan\source\repos\WareHouse.API.DataService\obj\Debug\net9.0\Warehouse.API.DataService.dll
+C:\Users\AminKhan\source\repos\WareHouse.API.DataService\obj\Debug\net9.0\refint\Warehouse.API.DataService.dll
+C:\Users\AminKhan\source\repos\WareHouse.API.DataService\obj\Debug\net9.0\Warehouse.API.DataService.pdb
+C:\Users\AminKhan\source\repos\WareHouse.API.DataService\obj\Debug\net9.0\Warehouse.API.DataService.genruntimeconfig.cache
+C:\Users\AminKhan\source\repos\WareHouse.API.DataService\obj\Debug\net9.0\ref\Warehouse.API.DataService.dll
